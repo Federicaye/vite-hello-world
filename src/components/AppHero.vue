@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
  header {
-    background-image: url(C:\esercizi\vite-hello-world\public\jumbo.png);
+    background-image: url('/jumbo.png');
     height: 200px;
  }
 </style>
