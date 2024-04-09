@@ -1,18 +1,25 @@
 <template>
-    <div>
-
-    </div>
+   <header> <AppTitle /></header>
 </template>
 
 <script>
-    export default {
-        name: 'AppHero',
-        data(){
+import AppTitle from './AppTitle.vue'
+export default {
+    name: 'AppHero',
+    components:{
+        AppTitle,
+    },
+    data() {
+        return {
 
         }
     }
+}
 </script>
 
-<style  scoped>
-
+<style scoped>
+ header {
+    background-image: url(C:\esercizi\vite-hello-world\public\jumbo.png);
+    height: 200px;
+ }
 </style>
